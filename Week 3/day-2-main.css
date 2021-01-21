@@ -1,0 +1,24 @@
+#question1 {
+    color: red;
+}
+
+#question3 {
+    flex: display;
+}
+
+h2 {
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+    border-color: red;
+}
+
+#question4 {
+    width: 100px;
+    flex: display;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
