@@ -20,7 +20,9 @@ console.log(albums)
 
 let htmlPics = albums.cats.map ((item) => {
   return `<img src = ${item}>`
-})
+}).join('')
+
+console.log(htmlPics)
 
 
 document.querySelector("#question1").innerHTML = "<h3>1. red text</h3>"
